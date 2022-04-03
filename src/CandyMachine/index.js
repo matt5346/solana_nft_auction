@@ -14,7 +14,6 @@ import {
   CIVIC
 } from './helpers';
 import CountdownTimer from '../CountdownTimer';
-console.log(process, process.env, 'PROCESS----- candy');
 
 const getProvider = () => {
   const rpcHost = process.env.REACT_APP_SOLANA_RPC_HOST;

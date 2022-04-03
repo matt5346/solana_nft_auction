@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import twitterLogo from './assets/twitter-logo.svg';
 import CandyMachine from './CandyMachine';
-console.log(process, process.env, 'PROCESS----- app');
 
 // Constants
 const TWITTER_HANDLE = '_buildspace';
@@ -19,7 +18,7 @@ const App = () => {
 
       if (solana) {
         if (solana.isPhantom) {
-          console.log(process, 'Phantom wallet found! 123');
+          console.log(process.env, 'Phantom wallet found! 123');
           const response = await solana.connect({ onlyIfTrusted: true });
           console.log(
             'Connected with Public Key:',
