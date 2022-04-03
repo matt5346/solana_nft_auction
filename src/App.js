@@ -3,10 +3,10 @@ import './App.css';
 import twitterLogo from './assets/twitter-logo.svg';
 import CandyMachine from './CandyMachine';
 
+console.log(process, process.env, 'PROCESS-----')
 // Constants
 const TWITTER_HANDLE = '_buildspace';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
-console.log(process, process.env, 'PROCESS-----')
 
 const App = () => {
   // Actions
