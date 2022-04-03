@@ -7,6 +7,7 @@ import {
   SYSVAR_RENT_PUBKEY,
   TransactionInstruction,
 } from '@solana/web3.js';
+console.log(process, process.env, 'PROCESS----- helper');
 
 // CLI Properties Given to us
 const candyMachineProgram = new web3.PublicKey(
